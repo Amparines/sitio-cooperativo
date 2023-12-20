@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5f4cb05c9e.js" crossorigin="anonymous"></script>
+    <title>Formulario de contacto</title>
+     <!--ESTILOS CSS-->
+     <link rel="stylesheet" href="css/estilos.minificado.css">
+    <!--FUENTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    
+ 
+  
+    <!--Favicon-->
+     <link rel="apple-touch-icon" sizes="180x180"href="images/apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+     <link rel="manifest" href="images/site.webmanifest">
+     <meta name="msapplication-TileColor" content="#da532c">
+     <meta name="theme-color" content="#ffffff">
+      <!-- FIN FAVICON -->
+      <style>
+       
+      </style>
+</head>
+<body>
+    <!--Cabecera--> 
+    <header>
+    <div class="top">
+        <ul class="container">
+            <li><i class="fas fa-phone"></i>658-587-426</li>
+            <li><i class="fa-solid fa-envelope"></i>info@gmail.com</li>
+        </ul>
+    </div>
+
+      
+        <nav id="navbar">
+            <div id="navigation" class="container">
+                <a href="index.html"><img src="images/logo.png" alt="logotipo"></a>
+                <span id="navbar-toggle" >
+                    <i class="fa-solid fa-bars"></i>
+                </span>
+                <ul id="main-nav">
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="la-firma.html">La firma</a></li>
+                    <li> <a href="areas-practicas.html">áreas de prácticas</a></li>
+                    <li> <a href="contacto.html">Contacto</a></li>
+                    <li><i class="fa-solid fa-phone"> +34-658-587-426</i></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <header>
+            <div class="container">
+                <h1>CONTACTO</h1>
+            </div>
+        </header>
+        <article id="pages" class="conteiner">
+            <section>
+                <h2>Formulario de contacto</h2>
+                <p>Para comunicarse con nosotros rellene el siguiente formulario.<br> 
+                Campos marcados con el asterisco<span class="asterisco">(*)</span>
+                son requeridos.</p>
+                
+                <form action="" method="post">
+                   <label for="nombre">Nombre<span class="asterisco">*</span>:</label>
+                   <input type="text" id="nombre"required >
+
+                   <label for="apellidos">Apellidos<span class="asterisco">*</span>:</label>
+                   <input type="text" id="apellidos" required>
+
+                   <label for="email">Correo electrónico<span class="asterisco">*</span>:</label>
+                   <input type="email" id="email" required>
+
+                   <label for="telefono">Télefono<span class="asterisco">*</span>:</label>
+                   <input type="text" id="telefono" required>
+
+                   <label for="movil">Télefono:</label>
+                   <input type="text" id="movil" >
+
+                   <label for="comentario">Diganos brevemente cómo podemos ayudarle<span class="asterisco">*</span>:</label>
+                    <textarea name="comentario" id="comentario" cols="30" rows="10" required></textarea>
+
+                    <input type="submit" value="enviar formulario">
+                </form>
+           
+         </section>
+         <aside>
+            <h3>Casos de estudios recientes</h3>
+            <ul>
+                <li><a href=""></a>Lorem ipsum dolor, sit amet?</li>
+                <li><a href=""></a>Lorem ipsum dolor, sit amet?</li>
+                <li><a href=""></a>Lorem ipsum dolor, sit amet?</li>
+                <li><a href=""></a>Lorem ipsum dolor, sit amet?</li>
+                <li><a href=""></a>Lorem ipsum dolor, sit amet?</li>
+            </ul>
+            <h3>Redes sociales</h3>
+            <div id="socialMedia">
+                <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <h3>Newsletter</h3>
+            <div id="boletin">
+            <p>Ingrese su dirección de correo electronico para recibir actualizaciones sobre temas legales</p>
+            </div>
+            <form action="" method="post">
+                <label for="correo"> correo electronico</label>
+                <input type="email" name="email" id="correo">
+                <input type="submit" value="enviar">
+            </form>
+         </aside>
+        </article>
+    </main>
+
+<footer>
+    <!--Pie de página-->
+    <div id="piedDePagina" class="containes">
+        <div>
+            <h3>Corporativo</h3>
+            <ul>
+                <li><a href="socios.html">Socios</a></li>
+                <li><a href="empleos.html">Trabaja con nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Legal</h3>
+            <ul>
+                <li><a href="condiciones.html">Terminos y condiciones</a></li>
+                <li><a href="Privacidad.html">Politicas de privacidad</a></li>
+            </ul>
+        </div>
+        <div>
+            <a href="index.html"><img src="image/logo.png" alt="logotipo"></a>
+            <div id="social">
+                <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+    <div id="copyright">
+        &copy  Derechos reservados.
+    </div>
+</footer>
+<script>
+        // Comportamientos para el menú de navegación.
+        let mainNav=document.getElementById('main-nav');
+    let navbarToggle=document.getElementById('navbar-toggle');
+    navbarToggle.addEventListener('click',function() {
+
+    if (this.classList.contains('active')){
+        mainNav.style.display="none";
+        this.classList.remove('active');
+    }
+    else {
+        mainNav.style.display="flex";
+        this.classList.add('active');
+    }
+    });
+</script>
+</body>
+</html>
